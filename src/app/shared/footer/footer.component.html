@@ -1,0 +1,5 @@
+<div class="flex-container">
+    <div *ngFor="let item of menuFooter; let i = index">
+        <a [href]="item.url" [innerHTML]="item.name"></a>
+    </div>
+</div>

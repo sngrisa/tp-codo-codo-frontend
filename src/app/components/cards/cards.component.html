@@ -1,0 +1,14 @@
+<div class="card mt-4" style="width: 18rem;">
+    <a [href]="dataCard.webUrl">
+        <img class="card-img-top" [src]="dataCard.imgUrl" [alt]="dataCard.name">
+        <div class="card-body">
+            <ul class="row">
+                <li class="col text-center" *ngFor="let language of dataCard.languages">
+                    <span [class]="language.spanColor">{{language.name}}</span>
+                </li>
+            </ul>
+            <h5 class="card-title">{{dataCard.name}}</h5>
+            <p class="card-text">{{dataCard.description}}</p>
+        </div>
+    </a>
+</div>

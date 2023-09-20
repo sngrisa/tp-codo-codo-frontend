@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="./assets/codoacodo.png" alt="codoacodoLogo" class="logo">Conf Bs As</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="flex-container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" *ngFor="let item of menuItems; let i = index">
+                    <a class="nav-link" [href]="[item.url]" routerLinkActive="active">{{item.nameMenu}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</nav>

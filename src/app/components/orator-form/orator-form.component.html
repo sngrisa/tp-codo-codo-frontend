@@ -1,0 +1,17 @@
+<h4 class="text-center mt-4"><h6>{{title | slice:0:17}}</h6><b><h2>{{title | slice:17:title.length}}</h2></b></h4>
+<form autocomplete="off" class="text-center mt-5 mb-5">
+    <p>Anótate como creador para dar una charla ignite. Cuentanos de que quieres hablar?</p>
+    <div class="row mt-3">
+        <div class="col">
+            <label for="name"></label>
+            <input type="text" placeholder="Nombre" required id="name" name="name" class="form-control" />
+        </div>
+        <div class="col">
+            <label for="lastname"></label>
+            <input type="text" placeholder="Apellido" required id="lastname" name="lastname" class="form-control"/>
+        </div>
+    </div>
+    <label for="oratorDescription"></label>
+    <textarea class="form-control" id="oratorDescription" name="oratorDescription" placeholder="Sobre que quieres hablar?"></textarea>
+    <button type="submit" class="btn btn-block mt-3 mb-3" id="btn-green">Enviar</button>
+</form>

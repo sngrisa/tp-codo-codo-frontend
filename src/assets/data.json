@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Steve Jobs",
+        "description": "Fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Fue cofundador y presidente ejecutivo de Apple12​ y máximo accionista individual de The Walt Disney Company",
+        "imgUrl": "assets/steve.jpg",
+        "webUrl": "https://es.wikipedia.org/wiki/Steve_Jobs",
+        "languages": [
+            {
+                "name": "Javascript",
+                "spanColor": "badge badge-warning"
+            },
+            {
+                "name": "React",
+                "spanColor": "badge badge-info"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bill Gates",
+        "description": "Es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen",
+        "imgUrl": "assets/bill.jpg",
+        "webUrl": "https://es.wikipedia.org/wiki/Bill_Gates",
+        "languages": [
+            {
+                "name": "Typescript",
+                "spanColor": "badge badge-primary"
+            },
+            {
+                "name": "Angular",
+                "spanColor": "badge badge-danger"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ada Lovelace",
+        "description": "Fue una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.",
+        "imgUrl": "assets/ada.jpeg",
+        "webUrl": "https://es.wikipedia.org/wiki/Ada_Lovelace",
+        "languages": [
+            {
+                "name": "Java",
+                "spanColor": "badge badge-success"
+            },
+            {
+                "name": "Angular",
+                "spanColor": "badge badge-danger"
+            }
+        ]
+    }
+]

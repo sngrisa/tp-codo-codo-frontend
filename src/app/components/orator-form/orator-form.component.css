@@ -1,0 +1,14 @@
+
+textarea{
+    resize: none;
+    height: 200px;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+#btn-green{
+    background-color: rgba(150,201,62,255);
+    color: white;
+}

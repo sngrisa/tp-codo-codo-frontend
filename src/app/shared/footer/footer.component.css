@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(30,81,112,255);
+    opacity: 1;
+    color: whitesmoke;
+    font-family: 'Helvetica';
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+}
