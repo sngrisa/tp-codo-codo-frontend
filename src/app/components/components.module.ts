@@ -4,7 +4,8 @@ import { CardsComponent } from './cards/cards.component';
 import { GridCardsComponent } from './grid-cards/grid-cards.component';
 import { HomeComponent } from './home/home.component';
 import { OratorFormComponent } from './orator-form/orator-form.component';
-import { CardTwoRowsComponent } from './card-two-rows/card-two-rows.component';
+import { LocationInfoComponent } from './location-info/location-info.component';
+import { StartPageComponent } from './start-page/start-page.component';
 
 
 
@@ -14,17 +15,18 @@ import { CardTwoRowsComponent } from './card-two-rows/card-two-rows.component';
     GridCardsComponent,
     HomeComponent,
     OratorFormComponent,
-    CardTwoRowsComponent
+    LocationInfoComponent,
+    StartPageComponent
   ],
   imports: [
     CommonModule
   ],
-  exports:[
+  exports: [
     CardsComponent,
     GridCardsComponent,
     HomeComponent,
     OratorFormComponent,
-    CardTwoRowsComponent
+    LocationInfoComponent
   ]
 })
 export class ComponentsModule { }

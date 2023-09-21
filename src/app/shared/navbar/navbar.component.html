@@ -8,11 +8,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active" *ngFor="let item of menuItems; let i = index">
-                    <a class="nav-link" [href]="[item.url]" routerLinkActive="active">{{item.nameMenu}}</a>
+                    <a class="nav-link" [href]="[item.url]" [class]="item.color" routerLinkActive="active">{{item.nameMenu}}</a>
                 </li>
             </ul>
         </div>
     </div>
-
-
 </nav>

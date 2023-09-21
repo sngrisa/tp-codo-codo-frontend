@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-card-two-rows',
-  templateUrl: './card-two-rows.component.html',
-  styleUrls: ['./card-two-rows.component.css']
+  selector: 'app-location-info',
+  templateUrl: './location-info.component.html',
+  styleUrls: ['./location-info.component.css']
 })
-export class CardTwoRowsComponent {
+export class LocationInfoComponent {
 
   dataCard: string[] =
     [

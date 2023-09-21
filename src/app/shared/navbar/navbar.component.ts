@@ -11,23 +11,28 @@ export class NavbarComponent {
   menuItems: any[] = [
     {
       nameMenu: "La Conferencia",
-      url: "#conferencia"
+      url: "#conferencia",
+      color: "text-white"
     },
     {
       nameMenu: "Los Oradores",
-      url: "#oradores"
+      url: "#oradores",
+      color: "text-white"
     },
     {
       nameMenu: "El lugar y la fecha",
-      url: "#lugaryfecha"
+      url: "#lugaryfecha",
+      color: "text-white"
     },
     {
       nameMenu: "Convertirse en Orador",
-      url: "#oradorForm"
+      url: "#oradorForm",
+      color: "text-white"
     },
     {
-      nameMenu: "Comprar Tickets",
-      url: "#comprarTickets"
+      nameMenu: "Comprar tickets",
+      url: "#comprarTickets",
+      color: "text-green"
     }
   ]
 
